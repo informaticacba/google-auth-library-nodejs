@@ -35,8 +35,13 @@ function main(
   /**
    * TODO(developer): Uncomment these variables before running the sample.
    */
-  // const url = 'https://TARGET_URL';
-  // const targetAudience = 'https://my-cloud-run-service.run.app';
+    
+  // Example: https://my-cloud-run-service.run.app/books/delete/12345
+  // const url = 'https://TARGET_HOSTNAME/TARGET_URL';
+    
+  // Example: https://my-cloud-run-service.run.app/
+  // const targetAudience = 'https://TARGET_HOSTNAME/';
+  
   const {GoogleAuth} = require('google-auth-library');
   const auth = new GoogleAuth();
 
